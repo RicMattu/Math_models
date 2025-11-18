@@ -14,12 +14,16 @@ It is convenient to express the II N. law as:
 where $M = \frac{F}{m}$ is the force for unit of mass.
 
 Since we observe the events from the Hearth, it is convenient to express equations from this reference system.  
-Ignoring the motion of revolution, we have to consider the rotation of the planet around his axis.  
-Denting by $\omega$ the angular speed of the Hearth, by $\mathbb{u}$ the speed relative to a system solidal with the Hearth and $\mathbb{r}$ the position respect to the cenetr of the planet:
+Ignoring the motion of revolution, we have to consider the rotation of the planet around his axis (which is the aceleration that makes the system non inertial). 
+Denting by $\Omega$ the angular speed of the Hearth ($\Omega = 7.3 \cdot 10^{-5} s^{-1}$) , by $\mathbb{u}$ the speed relative to a system solidal with the Hearth and $\mathbb{r}$ the position respect to the center of the planet, hols the famous Poisson's relationship[^3]:
 > $$\mathbb{v} = \mathbb{u} + \omega \times \mathbb{r}$$
----------------------------------------------------------------------------------------------------
-> Example
 
+which reads: 
+> *The velocity of a body in a fixed (inertial) reference system is equivalent to the velocity in the rotating system, plus the vectorial product between the angualar velocity and the position with respect to the rotating reference.*
+------------------------
+#### Example
+Suppose 
+--------------------
 The following equality holds for any vector of the form such as $V_a$:
 > $$\frac{d_a V_a}{dt} = \frac{d_a V_a}{dt} + \Omega \times  V_a$$
 
@@ -94,3 +98,4 @@ where $M = \frac{F}{m}$ is the force for unit of mass.
 
 [^1]:(https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
 [^2]: without going into technical details, we can just think about it as a fixed reference system which contains the Hearth and the Sun.
+[^3]: $F$ | vector |(v_x,v_y,v_z) |$m/s$
