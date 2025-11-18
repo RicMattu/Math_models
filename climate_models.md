@@ -1,9 +1,4 @@
-# Math of climate
-
-In the rest of this article we want to answer those questions:  
-1. Why we can't forcast weather as we do for the motion of a planet?
-
-## Equations of the atmosphere
+# Equations of the atmosphere
 
 ### 1) Navier-Stokes
 Let's start from the second Netwton's law in the differential form:
