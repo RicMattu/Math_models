@@ -1,21 +1,23 @@
 # Equations of the atmosphere
+The goal of this article is to derive the equations which describes the atmpsphere.
 
-### 1) Navier-Stokes
-Let's start from the second Netwton's law in the differential form:
+## 1) Navier-Stokes
+Let's start from the second Netwton's law[^1] in the differential form:
 > $$ \frac{dv}{dt} = \frac{F}{m}$$
 
-Now let's consider the velocity vector in a three dimensional space $V_a$  
-where the index $a$ stands for _absolute_ meaning that the velocity is 
-considered respect to an absolute reference system
+Where $v$ is the velocity vector in the three dimensional space $\mathbb{v}=(v_x,v_y,v_z)$, 
+it is considered with respect to an absolute reference system[^2].
 
-> $$ \frac{d_a V_a}{dt} = M$$
+It is convenient to express the II N. law as:
+> $$ \frac{d v}{dt} = M$$
 
-and $M = \frac{F}{m}$ is the force for unit of mass.
+where $M = \frac{F}{m}$ is the force for unit of mass.
 
-Since we want to consider the Hearth system, ignoring the motion of revolution, we consider the rotation of the planet arounf his axis.  
-Denting by $\Omega$ the angular speed, $V$ the speed relative to a system solidal with the Hearth and $r$ the position respect to the cenetr of the planet:
-> $$V_a = V + \Omega \times r$$
-
+Since we observe the events from the Hearth, it is convenient to express equations from this reference system.  
+Ignoring the motion of revolution, we have to consider the rotation of the planet around his axis.  
+Denting by $\omega$ the angular speed of the Hearth, by $\mathbb{u}$ the speed relative to a system solidal with the Hearth and $\mathbb{r}$ the position respect to the cenetr of the planet:
+> $$\mathbb{v} = \mathbb{u} + \omega \times \mathbb{r}$$
+---------------------------------------------------------------------------------------------------
 > Example
 
 The following equality holds for any vector of the form such as $V_a$:
@@ -69,6 +71,19 @@ p\alpha = RT, \\
 \end{cases}
 $$
 
+Synthesis of the quantities
+|Quantity|Nature|Full expression| Unit of measurement |
+|:---:|:---:|:---|:--:|
+$v$ | vector |(v_x,v_y,v_z) |$m/s$|
+$t$ | scalar |- |$s$|
+$m$ | scalar |- |$kg$|
+$F$ | vector |(F_x,F_y,F_z) |$N = kg \cdot m/s^2$|
+$M$ | vector | $F/m$ |$N/kg = m/s^2$|
+
+
+
+where $M = \frac{F}{m}$ is the force for unit of mass.
+
 
 
 
@@ -76,3 +91,6 @@ $$
 
 ## Bibliography
 1. Cherchi Annalisa, Corti Susanna *Clima 2050*, Zanichelli Editore, 2025.
+
+[^1]:(https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
+[^2]: without going into technical details, we can just think about it as a fixed reference system which contains the Hearth and the Sun.
